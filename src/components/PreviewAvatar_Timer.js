@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const Toggle2 = () => {
+const PreviewAvatar_Timer = () => {
     const [countdown, setCountdown] = useState(180);
     const [avatar, setAvatar] = useState();
 
@@ -47,4 +47,4 @@ const Toggle2 = () => {
     );
 };
 
-export default Toggle2;
+export default PreviewAvatar_Timer;

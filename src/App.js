@@ -23,7 +23,7 @@ function App() {
     <div className="App" style={{ paddingLeft: "5%" }}>
 
         <button onClick={handleToggle}> Toggle</button>
-        {toggle &&  <RollDice  />}
+        {toggle &&  <PreviewAvatar_Timer  />}
         <br/>
 
 

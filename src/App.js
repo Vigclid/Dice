@@ -6,6 +6,10 @@ import UseLayoutEffect from "./components/UseLayoutEffect";
 import Learn_UseRef from "./components/Learn_UseRef";
 import RollDice from "./components/Dicegame/RollDice";
 import UserLayoutEffect from "./components/UseLayoutEffect";
+import PracticeUseMemo from "./components/UseMemo";
+import TestingGoogle from "./components/TestingGoogle";
+import PracticeUseReducer from "./components/PracticeUseReducer";
+import ReducerTodoApp from "./components/ReducerTodoApp";
 
 
 
@@ -23,7 +27,7 @@ function App() {
     <div className="App" style={{ paddingLeft: "5%" }}>
 
         <button onClick={handleToggle}> Toggle</button>
-        {toggle &&  <RollDice  />}
+        {toggle &&  <ReducerTodoApp  />}
         <br/>
 
 

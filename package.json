@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://Vigclid.github.io/Dice",
+  "homepage": "https://Vigclid.github.io/Dice",
   "name": "tiktok",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +7,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@vis.gl/react-google-maps": "^1.4.2",
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -15,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",

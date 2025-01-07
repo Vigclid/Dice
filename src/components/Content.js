@@ -2,7 +2,7 @@ import {useEffect, useRef, useState} from "react";
 
 const tab = ["posts","photos","albums"]
 
-const Content = () =>{
+const Content = () => {
     const [title, setTitle] = useState("");
     const [posts, setPosts] = useState([]);
     const [type, setType] = useState("posts");
@@ -64,7 +64,7 @@ const Content = () =>{
                 }>
                     Contract
                 </button>
-            )
+                )
 
             }
         </div>

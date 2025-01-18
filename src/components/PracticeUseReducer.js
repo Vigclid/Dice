@@ -32,6 +32,9 @@ const PracticeUseReducer = () => {
             <h1>{count}</h1>
             <button onClick={() => dispatch(UP_ACTION)}> up </button>
             <button onClick={() => dispatch(DOWN_ACTION)}> down </button>
+
+
+
         </div>
     )
 }

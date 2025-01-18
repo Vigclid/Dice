@@ -10,8 +10,7 @@ import PracticeUseMemo from "./components/UseMemo";
 import TestingGoogle from "./components/TestingGoogle";
 import PracticeUseReducer from "./components/PracticeUseReducer";
 import ReducerTodoApp from "./components/ReducerTodoApp";
-
-
+import "./App.css"
 
 function App() {
 
@@ -24,10 +23,10 @@ function App() {
 
 
   return (
-    <div className="App" style={{ paddingLeft: "5%" }}>
+    <div className="App-header" >
 
         <button onClick={handleToggle}> Toggle</button>
-        {toggle &&  <ReducerTodoApp  />}
+        {toggle &&  <Content  />}
         <br/>
 
 
